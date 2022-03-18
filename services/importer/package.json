@@ -1,0 +1,20 @@
+{
+  "name": "importer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node ./node_modules/nodemon/bin/nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mqtt": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
